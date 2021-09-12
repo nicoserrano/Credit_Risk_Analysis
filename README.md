@@ -57,5 +57,7 @@ The results for all six machine learning algorithms are shown below with their o
 
 ## Summary
 
+In the financial industry, precision is more valuable than sensitivity (recall) for analyzing risk and default rates on loan candidates. Nevertheless, all six algorithms had a really low precision rate for high risk individuals, that is the measurement we are trying to increase the most. The highest one was the Easy Ensemble AdaBoost Classifier with 7% precision which is still considered pretty low for finding these high risk individuals not to give loans to. On the other hand, all the models had a perfect precision for low-risk individiauls meaning that all of the low-risk customers were given loans. 
 
+Having this in mind, precision is not telling us much information to compare the algorithms, so we should take a look at sensitivity. 
 
