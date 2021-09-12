@@ -18,7 +18,7 @@ The objective of this project was to use machine learning models to analyze cred
 
 ## Results
 
-The results for all six machine learning algorithms are shown below:
+The results for all six machine learning algorithms are shown below with their outputs supported with images:
 
 
  | ML Model | Balanced Accuracy Score | Precision | Recall | F1 |
@@ -30,6 +30,29 @@ The results for all six machine learning algorithms are shown below:
  | Balanced Random Forest Classifier | 0.79 | 0.99 | 0.91 | 0.95 |
  | Easy Ensemble AdaBoost Classifier | 0.93 | 0.99 | 0.94 | 0.97 |
  
+- Naive Random Oversampling:
+
+<img width="820" alt="Naive_Random_Oversampling" src="https://user-images.githubusercontent.com/83378141/132993649-db533526-37da-4445-a903-3b2f652d2c90.png">
+
+- SMOTE Oversampling:
+
+<img width="821" alt="SMOTE_Oversampling" src="https://user-images.githubusercontent.com/83378141/132993662-f9666b02-f651-41ee-99eb-02eec00f86cb.png">
+
+- Cluster Centroid Undersampling: 
+
+<img width="673" alt="ClusterCentroids_Undersampling" src="https://user-images.githubusercontent.com/83378141/132993683-7c683f94-d8d2-4889-b446-2285cf4d084b.png">
+
+- SMOTEENN Combination Sampling: 
+
+<img width="655" alt="SMOTEENN_Comb_Sampling" src="https://user-images.githubusercontent.com/83378141/132993709-e73069fa-125d-4992-8451-f8fdbf19378d.png">
+
+- Balanced Random Forest Classifier: 
+
+<img width="805" alt="Random_Forest_Classifier" src="https://user-images.githubusercontent.com/83378141/132993725-a58c2e11-381e-47c9-a66f-3297b0cd5ba2.png">
+
+- Easy Ensemble AdaBoost Classifier:
+
+<img width="811" alt="Easy_Ensemble_AdaBoost" src="https://user-images.githubusercontent.com/83378141/132993735-911adaa7-684f-455e-a6d2-5536ea492303.png">
 
 
 ## Summary
